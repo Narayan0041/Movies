@@ -1,0 +1,120 @@
+:root{
+  --black-color:rgb(2, 1, 5);
+  --gold-color:#bd7100;
+  --light-gold-color:#ffcc75;
+  --white-color:white;
+  --blue-color:rgb(17, 17, 22);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  transition:all .2s linear;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--black-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.LeftHeader{
+  position: fixed;
+}
+/* ------------------------------logo-section--------------------------------------- */
+.LogoSection{
+ position: fixed;
+ top: 1rem;
+}
+.LogoSection img{
+  margin-left: 2rem;
+}
+.subscribe{
+  margin-top: .5rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+  width: 5.5rem;
+  height: 1.3rem;
+  text-align: center;
+  background-color: rgb(46, 41, 33);
+  color:var(--light-gold-color) ;
+  
+}
+.subscribe span{
+  position: relative;
+  bottom: .2rem;
+  font-size: .79rem;
+}
+.subscribe i{
+  color: var(--light-gold-color);
+}
+/* -------------------------links-section------------------------------------------------ */
+.LinkSection{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12rem;
+  margin-left: 3rem;
+  gap: 2rem;
+}
+.LinkSection i{
+  color: rgb(167, 161, 161);
+  font-size: 1rem;
+}
+/* .MainSection{
+
+} */
+.active{
+  box-shadow: -5px -1px 40px 2px rgba(233,235,242,1);
+}
+/* -------------------------------AdSection------------- */
+.AdSection-UpperSection{
+  display: flex;
+  margin-left: 2rem;
+}
+.AdSection{
+  margin-left: 7rem;
+  margin-top: .5rem;
+  border-radius: .5rem;
+  display: flex;
+  background-color: var(--blue-color);
+}
+.AdSection .Img img{
+border-radius: .5rem;
+}
+.AdSection-UpperSection{
+  margin-top: 2rem;
+}
+.AdSection-UpperSection-text{
+  margin-left: 1rem;
+  margin-top: .5rem;
+}
+.AdSection-UpperSection img{
+  border-radius: .2rem;
+}
+.AdSection-UpperSection-text h4{
+  color: var(--white-color);
+  font-weight: 500;
+}
+.AdSection-UpperSection-text p{
+  font-size: 1rem;
+  color: rgb(173, 173, 206);
+}
+.AdSectionBtn{
+  margin-left: 4rem;
+  margin-top: 5rem;
+  font-size: 1.2rem;
+  padding: 1rem 4rem;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(33, 33, 41);
+  border-radius: .5rem;
+}
